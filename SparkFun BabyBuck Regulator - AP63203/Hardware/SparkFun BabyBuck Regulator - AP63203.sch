@@ -9928,7 +9928,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="165.1" y="11.43" size="2.54" layer="94" font="vector">Alex Wende</text>
-<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v01</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">V10</text>
 <wire x1="147.32" y1="35.56" x2="91.44" y2="35.56" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="91.44" y1="35.56" x2="0" y2="35.56" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="91.44" y1="185.42" x2="91.44" y2="35.56" width="0.2032" layer="97" style="shortdash"/>
