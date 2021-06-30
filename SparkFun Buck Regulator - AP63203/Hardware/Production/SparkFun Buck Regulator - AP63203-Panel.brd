@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -182,6 +182,7 @@
 <layer number="249" name="Edge" color="7" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="253" name="Extra" color="7" fill="1" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="no"/>
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="no"/>
 </layers>
@@ -817,18 +818,18 @@
 <vertex x="109.728" y="166.624"/>
 </polygon>
 <wire x1="125.222" y1="173.228" x2="125.222" y2="163.068" width="4.5212" layer="48"/>
-<wire x1="-0.254" y1="-6.858" x2="-0.254" y2="194.056" width="0.381" layer="46"/>
-<text x="-0.254" y="196.342" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
-<wire x1="25.654" y1="-6.858" x2="25.654" y2="194.056" width="0.381" layer="46"/>
-<text x="25.654" y="196.342" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
-<wire x1="51.562" y1="-6.858" x2="51.562" y2="194.056" width="0.381" layer="46"/>
-<text x="51.562" y="196.342" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
-<wire x1="77.47" y1="-6.858" x2="77.47" y2="194.056" width="0.381" layer="46"/>
-<text x="77.47" y="196.342" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
-<wire x1="103.378" y1="-6.858" x2="103.378" y2="194.056" width="0.381" layer="46"/>
-<text x="103.378" y="196.342" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
-<wire x1="129.286" y1="-6.858" x2="129.286" y2="194.056" width="0.381" layer="46"/>
-<text x="129.286" y="196.342" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
+<wire x1="-0.254" y1="-6.858" x2="-0.254" y2="188.214" width="0.381" layer="46"/>
+<text x="-0.254" y="190.5" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
+<wire x1="25.654" y1="-6.858" x2="25.654" y2="188.214" width="0.381" layer="46"/>
+<text x="25.654" y="190.5" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
+<wire x1="51.562" y1="-6.858" x2="51.562" y2="188.214" width="0.381" layer="46"/>
+<text x="51.562" y="190.5" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
+<wire x1="77.47" y1="-6.858" x2="77.47" y2="188.214" width="0.381" layer="46"/>
+<text x="77.47" y="190.5" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
+<wire x1="103.378" y1="-6.858" x2="103.378" y2="188.214" width="0.381" layer="46"/>
+<text x="103.378" y="190.5" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
+<wire x1="129.286" y1="-6.858" x2="129.286" y2="188.214" width="0.381" layer="46"/>
+<text x="129.286" y="190.5" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
 <wire x1="-6.858" y1="-0.254" x2="142.24" y2="-0.254" width="0.381" layer="46"/>
 <text x="149.86" y="-0.254" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
 <wire x1="-6.858" y1="25.654" x2="142.24" y2="25.654" width="0.381" layer="46"/>
@@ -1862,10 +1863,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="5" y1="-4.5" x2="7.7" y2="-4.5" width="0.2032" layer="51"/>
 <wire x1="7.7" y1="4.5" x2="5" y2="4.5" width="0.2032" layer="51"/>
 <wire x1="7.7" y1="4.5" x2="7.7" y2="-4.5" width="0.2032" layer="51"/>
-<wire x1="5" y1="4.5" x2="-0.3" y2="4.5" width="0.2032" layer="21"/>
+<wire x1="5" y1="4.5" x2="-0.3" y2="4.5" width="0.2032" layer="51"/>
 <wire x1="-5.7" y1="4.5" x2="-5.6" y2="4.5" width="0.2032" layer="21"/>
 <wire x1="-5.7" y1="-4.5" x2="-5.7" y2="-2.8" width="0.2032" layer="21"/>
-<wire x1="5" y1="-4.5" x2="5" y2="4.5" width="0.2032" layer="21"/>
+<wire x1="5" y1="-4.5" x2="5" y2="4.5" width="0.2032" layer="51"/>
 <text x="-4.173" y="-1.83" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-4.273" y="-2.857" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 <polygon width="0.01" layer="46">
@@ -1890,10 +1891,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pad name="GNDBREAK" x="-3.048" y="4.699" drill="1" diameter="2" shape="long" rot="R180" stop="no"/>
 <pad name="PWR" x="-5.969" y="0" drill="1" diameter="2.3" shape="long" rot="R90"/>
 <wire x1="-5.7" y1="4.5" x2="-5.7" y2="2.7" width="0.2032" layer="22"/>
-<wire x1="5" y1="4.5" x2="-0.3" y2="4.5" width="0.2032" layer="22"/>
+<wire x1="5" y1="4.5" x2="-0.3" y2="4.5" width="0.2032" layer="52"/>
 <wire x1="-5.7" y1="4.5" x2="-5.6" y2="4.5" width="0.2032" layer="22"/>
 <wire x1="-5.7" y1="-4.5" x2="-5.7" y2="-2.8" width="0.2032" layer="22"/>
-<wire x1="5" y1="-4.5" x2="5" y2="4.5" width="0.2032" layer="22"/>
+<wire x1="5" y1="-4.5" x2="5" y2="4.5" width="0.2032" layer="52"/>
 <wire x1="5" y1="-4.5" x2="7.7" y2="-4.5" width="0.2032" layer="52"/>
 <wire x1="7.7" y1="4.5" x2="5" y2="4.5" width="0.2032" layer="52"/>
 <wire x1="7.7" y1="4.5" x2="7.7" y2="-4.5" width="0.2032" layer="52"/>
@@ -1927,8 +1928,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-4.132078125" y="-3.556"/>
 </polygon>
 <wire x1="-5.7" y1="-4.517" x2="-5.6" y2="-4.517" width="0.2032" layer="21"/>
-<wire x1="5" y1="-4.517" x2="-0.3" y2="-4.517" width="0.2032" layer="21"/>
-<wire x1="5" y1="-4.517" x2="-0.3" y2="-4.517" width="0.2032" layer="22"/>
+<wire x1="5" y1="-4.517" x2="-0.3" y2="-4.517" width="0.2032" layer="51"/>
+<wire x1="5" y1="-4.517" x2="-0.3" y2="-4.517" width="0.2032" layer="52"/>
 <wire x1="-5.7" y1="-4.517" x2="-5.6" y2="-4.517" width="0.2032" layer="22"/>
 </package>
 </packages>
@@ -4478,6 +4479,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="12.7" y="4.191" smashed="yes" rot="MR0"/>
 <element name="J3" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="12.7" y="1.397" smashed="yes" rot="R270">
 <attribute name="NAME" x="9.6" y="5.697" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="12.7" y="1.397" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="8.7" y="5.797" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$8" library="output" package="#VIN#0" value="" x="21.336" y="7.493" smashed="yes" rot="MR0"/>
@@ -4586,6 +4588,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO4" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="38.608" y="4.191" smashed="yes" rot="MR0"/>
 <element name="J6" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="38.608" y="1.397" smashed="yes" rot="R270">
 <attribute name="NAME" x="35.508" y="5.697" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="38.608" y="1.397" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="34.608" y="5.797" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$34" library="output" package="#VIN#0" value="" x="47.244" y="7.493" smashed="yes" rot="MR0"/>
@@ -4694,6 +4697,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO6" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="64.516" y="4.191" smashed="yes" rot="MR0"/>
 <element name="J9" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="64.516" y="1.397" smashed="yes" rot="R270">
 <attribute name="NAME" x="61.416" y="5.697" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="64.516" y="1.397" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="60.516" y="5.797" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$53" library="output" package="#VIN#0" value="" x="73.152" y="7.493" smashed="yes" rot="MR0"/>
@@ -4802,6 +4806,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO8" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="90.424" y="4.191" smashed="yes" rot="MR0"/>
 <element name="J12" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="90.424" y="1.397" smashed="yes" rot="R270">
 <attribute name="NAME" x="87.324" y="5.697" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="90.424" y="1.397" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="86.424" y="5.797" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$72" library="output" package="#VIN#0" value="" x="99.06" y="7.493" smashed="yes" rot="MR0"/>
@@ -4910,6 +4915,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO10" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="116.332" y="4.191" smashed="yes" rot="MR0"/>
 <element name="J15" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="116.332" y="1.397" smashed="yes" rot="R270">
 <attribute name="NAME" x="113.232" y="5.697" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="116.332" y="1.397" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="112.332" y="5.797" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$91" library="output" package="#VIN#0" value="" x="124.968" y="7.493" smashed="yes" rot="MR0"/>
@@ -5018,6 +5024,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO12" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="12.7" y="30.099" smashed="yes" rot="MR0"/>
 <element name="J18" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="12.7" y="27.305" smashed="yes" rot="R270">
 <attribute name="NAME" x="9.6" y="31.605" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="12.7" y="27.305" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="8.7" y="31.705" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$110" library="output" package="#VIN#0" value="" x="21.336" y="33.401" smashed="yes" rot="MR0"/>
@@ -5126,6 +5133,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO14" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="38.608" y="30.099" smashed="yes" rot="MR0"/>
 <element name="J21" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="38.608" y="27.305" smashed="yes" rot="R270">
 <attribute name="NAME" x="35.508" y="31.605" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="38.608" y="27.305" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="34.608" y="31.705" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$129" library="output" package="#VIN#0" value="" x="47.244" y="33.401" smashed="yes" rot="MR0"/>
@@ -5234,6 +5242,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO16" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="64.516" y="30.099" smashed="yes" rot="MR0"/>
 <element name="J24" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="64.516" y="27.305" smashed="yes" rot="R270">
 <attribute name="NAME" x="61.416" y="31.605" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="64.516" y="27.305" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="60.516" y="31.705" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$148" library="output" package="#VIN#0" value="" x="73.152" y="33.401" smashed="yes" rot="MR0"/>
@@ -5342,6 +5351,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO18" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="90.424" y="30.099" smashed="yes" rot="MR0"/>
 <element name="J27" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="90.424" y="27.305" smashed="yes" rot="R270">
 <attribute name="NAME" x="87.324" y="31.605" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="90.424" y="27.305" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="86.424" y="31.705" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$167" library="output" package="#VIN#0" value="" x="99.06" y="33.401" smashed="yes" rot="MR0"/>
@@ -5450,6 +5460,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO20" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="116.332" y="30.099" smashed="yes" rot="MR0"/>
 <element name="J30" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="116.332" y="27.305" smashed="yes" rot="R270">
 <attribute name="NAME" x="113.232" y="31.605" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="116.332" y="27.305" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="112.332" y="31.705" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$186" library="output" package="#VIN#0" value="" x="124.968" y="33.401" smashed="yes" rot="MR0"/>
@@ -5558,6 +5569,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO22" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="12.7" y="56.007" smashed="yes" rot="MR0"/>
 <element name="J33" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="12.7" y="53.213" smashed="yes" rot="R270">
 <attribute name="NAME" x="9.6" y="57.513" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="12.7" y="53.213" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="8.7" y="57.613" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$205" library="output" package="#VIN#0" value="" x="21.336" y="59.309" smashed="yes" rot="MR0"/>
@@ -5666,6 +5678,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO24" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="38.608" y="56.007" smashed="yes" rot="MR0"/>
 <element name="J36" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="38.608" y="53.213" smashed="yes" rot="R270">
 <attribute name="NAME" x="35.508" y="57.513" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="38.608" y="53.213" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="34.608" y="57.613" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$224" library="output" package="#VIN#0" value="" x="47.244" y="59.309" smashed="yes" rot="MR0"/>
@@ -5774,6 +5787,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO26" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="64.516" y="56.007" smashed="yes" rot="MR0"/>
 <element name="J39" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="64.516" y="53.213" smashed="yes" rot="R270">
 <attribute name="NAME" x="61.416" y="57.513" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="64.516" y="53.213" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="60.516" y="57.613" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$243" library="output" package="#VIN#0" value="" x="73.152" y="59.309" smashed="yes" rot="MR0"/>
@@ -5882,6 +5896,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO28" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="90.424" y="56.007" smashed="yes" rot="MR0"/>
 <element name="J42" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="90.424" y="53.213" smashed="yes" rot="R270">
 <attribute name="NAME" x="87.324" y="57.513" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="90.424" y="53.213" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="86.424" y="57.613" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$262" library="output" package="#VIN#0" value="" x="99.06" y="59.309" smashed="yes" rot="MR0"/>
@@ -5990,6 +6005,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO30" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="116.332" y="56.007" smashed="yes" rot="MR0"/>
 <element name="J45" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="116.332" y="53.213" smashed="yes" rot="R270">
 <attribute name="NAME" x="113.232" y="57.513" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="116.332" y="53.213" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="112.332" y="57.613" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$281" library="output" package="#VIN#0" value="" x="124.968" y="59.309" smashed="yes" rot="MR0"/>
@@ -6098,6 +6114,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO32" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="12.7" y="81.915" smashed="yes" rot="MR0"/>
 <element name="J48" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="12.7" y="79.121" smashed="yes" rot="R270">
 <attribute name="NAME" x="9.6" y="83.421" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="12.7" y="79.121" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="8.7" y="83.521" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$300" library="output" package="#VIN#0" value="" x="21.336" y="85.217" smashed="yes" rot="MR0"/>
@@ -6206,6 +6223,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO34" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="38.608" y="81.915" smashed="yes" rot="MR0"/>
 <element name="J51" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="38.608" y="79.121" smashed="yes" rot="R270">
 <attribute name="NAME" x="35.508" y="83.421" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="38.608" y="79.121" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="34.608" y="83.521" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$319" library="output" package="#VIN#0" value="" x="47.244" y="85.217" smashed="yes" rot="MR0"/>
@@ -6314,6 +6332,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO36" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="64.516" y="81.915" smashed="yes" rot="MR0"/>
 <element name="J54" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="64.516" y="79.121" smashed="yes" rot="R270">
 <attribute name="NAME" x="61.416" y="83.421" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="64.516" y="79.121" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="60.516" y="83.521" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$338" library="output" package="#VIN#0" value="" x="73.152" y="85.217" smashed="yes" rot="MR0"/>
@@ -6422,6 +6441,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO38" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="90.424" y="81.915" smashed="yes" rot="MR0"/>
 <element name="J57" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="90.424" y="79.121" smashed="yes" rot="R270">
 <attribute name="NAME" x="87.324" y="83.421" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="90.424" y="79.121" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="86.424" y="83.521" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$357" library="output" package="#VIN#0" value="" x="99.06" y="85.217" smashed="yes" rot="MR0"/>
@@ -6530,6 +6550,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO40" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="116.332" y="81.915" smashed="yes" rot="MR0"/>
 <element name="J60" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="116.332" y="79.121" smashed="yes" rot="R270">
 <attribute name="NAME" x="113.232" y="83.421" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="116.332" y="79.121" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="112.332" y="83.521" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$376" library="output" package="#VIN#0" value="" x="124.968" y="85.217" smashed="yes" rot="MR0"/>
@@ -6638,6 +6659,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO42" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="12.7" y="107.823" smashed="yes" rot="MR0"/>
 <element name="J63" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="12.7" y="105.029" smashed="yes" rot="R270">
 <attribute name="NAME" x="9.6" y="109.329" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="12.7" y="105.029" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="8.7" y="109.429" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$395" library="output" package="#VIN#0" value="" x="21.336" y="111.125" smashed="yes" rot="MR0"/>
@@ -6746,6 +6768,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO44" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="38.608" y="107.823" smashed="yes" rot="MR0"/>
 <element name="J66" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="38.608" y="105.029" smashed="yes" rot="R270">
 <attribute name="NAME" x="35.508" y="109.329" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="38.608" y="105.029" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="34.608" y="109.429" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$414" library="output" package="#VIN#0" value="" x="47.244" y="111.125" smashed="yes" rot="MR0"/>
@@ -6854,6 +6877,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO46" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="64.516" y="107.823" smashed="yes" rot="MR0"/>
 <element name="J69" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="64.516" y="105.029" smashed="yes" rot="R270">
 <attribute name="NAME" x="61.416" y="109.329" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="64.516" y="105.029" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="60.516" y="109.429" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$433" library="output" package="#VIN#0" value="" x="73.152" y="111.125" smashed="yes" rot="MR0"/>
@@ -6962,6 +6986,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO48" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="90.424" y="107.823" smashed="yes" rot="MR0"/>
 <element name="J72" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="90.424" y="105.029" smashed="yes" rot="R270">
 <attribute name="NAME" x="87.324" y="109.329" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="90.424" y="105.029" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="86.424" y="109.429" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$452" library="output" package="#VIN#0" value="" x="99.06" y="111.125" smashed="yes" rot="MR0"/>
@@ -7070,6 +7095,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO50" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="116.332" y="107.823" smashed="yes" rot="MR0"/>
 <element name="J75" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="116.332" y="105.029" smashed="yes" rot="R270">
 <attribute name="NAME" x="113.232" y="109.329" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="116.332" y="105.029" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="112.332" y="109.429" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$471" library="output" package="#VIN#0" value="" x="124.968" y="111.125" smashed="yes" rot="MR0"/>
@@ -7178,6 +7204,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO52" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="12.7" y="133.731" smashed="yes" rot="MR0"/>
 <element name="J78" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="12.7" y="130.937" smashed="yes" rot="R270">
 <attribute name="NAME" x="9.6" y="135.237" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="12.7" y="130.937" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="8.7" y="135.337" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$490" library="output" package="#VIN#0" value="" x="21.336" y="137.033" smashed="yes" rot="MR0"/>
@@ -7286,6 +7313,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO54" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="38.608" y="133.731" smashed="yes" rot="MR0"/>
 <element name="J81" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="38.608" y="130.937" smashed="yes" rot="R270">
 <attribute name="NAME" x="35.508" y="135.237" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="38.608" y="130.937" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="34.608" y="135.337" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$509" library="output" package="#VIN#0" value="" x="47.244" y="137.033" smashed="yes" rot="MR0"/>
@@ -7394,6 +7422,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO56" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="64.516" y="133.731" smashed="yes" rot="MR0"/>
 <element name="J84" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="64.516" y="130.937" smashed="yes" rot="R270">
 <attribute name="NAME" x="61.416" y="135.237" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="64.516" y="130.937" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="60.516" y="135.337" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$528" library="output" package="#VIN#0" value="" x="73.152" y="137.033" smashed="yes" rot="MR0"/>
@@ -7502,6 +7531,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO58" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="90.424" y="133.731" smashed="yes" rot="MR0"/>
 <element name="J87" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="90.424" y="130.937" smashed="yes" rot="R270">
 <attribute name="NAME" x="87.324" y="135.237" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="90.424" y="130.937" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="86.424" y="135.337" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$547" library="output" package="#VIN#0" value="" x="99.06" y="137.033" smashed="yes" rot="MR0"/>
@@ -7610,6 +7640,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO60" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="116.332" y="133.731" smashed="yes" rot="MR0"/>
 <element name="J90" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="116.332" y="130.937" smashed="yes" rot="R270">
 <attribute name="NAME" x="113.232" y="135.237" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="116.332" y="130.937" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="112.332" y="135.337" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$566" library="output" package="#VIN#0" value="" x="124.968" y="137.033" smashed="yes" rot="MR0"/>
@@ -7718,6 +7749,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO62" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="12.7" y="159.639" smashed="yes" rot="MR0"/>
 <element name="J93" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="12.7" y="156.845" smashed="yes" rot="R270">
 <attribute name="NAME" x="9.6" y="161.145" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="12.7" y="156.845" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="8.7" y="161.245" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$585" library="output" package="#VIN#0" value="" x="21.336" y="162.941" smashed="yes" rot="MR0"/>
@@ -7826,6 +7858,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO64" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="38.608" y="159.639" smashed="yes" rot="MR0"/>
 <element name="J96" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="38.608" y="156.845" smashed="yes" rot="R270">
 <attribute name="NAME" x="35.508" y="161.145" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="38.608" y="156.845" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="34.608" y="161.245" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$604" library="output" package="#VIN#0" value="" x="47.244" y="162.941" smashed="yes" rot="MR0"/>
@@ -7934,6 +7967,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO66" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="64.516" y="159.639" smashed="yes" rot="MR0"/>
 <element name="J99" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="64.516" y="156.845" smashed="yes" rot="R270">
 <attribute name="NAME" x="61.416" y="161.145" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="64.516" y="156.845" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="60.516" y="161.245" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$623" library="output" package="#VIN#0" value="" x="73.152" y="162.941" smashed="yes" rot="MR0"/>
@@ -8042,6 +8076,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO68" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="90.424" y="159.639" smashed="yes" rot="MR0"/>
 <element name="J102" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="90.424" y="156.845" smashed="yes" rot="R270">
 <attribute name="NAME" x="87.324" y="161.145" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="90.424" y="156.845" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="86.424" y="161.245" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$642" library="output" package="#VIN#0" value="" x="99.06" y="162.941" smashed="yes" rot="MR0"/>
@@ -8150,6 +8185,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO70" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="116.332" y="159.639" smashed="yes" rot="MR0"/>
 <element name="J105" library="SparkFun-Connectors" package="POWER_JACK_PTH_SLOT" value="POWER_JACK" x="116.332" y="156.845" smashed="yes" rot="R270">
 <attribute name="NAME" x="113.232" y="161.145" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="116.332" y="156.845" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="112.332" y="161.245" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$661" library="output" package="#VIN#0" value="" x="124.968" y="162.941" smashed="yes" rot="MR0"/>
@@ -8171,12 +8207,12 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$663" library="buzzard_labels (1)" package="PWR1" value="" x="115.824" y="164.719" smashed="yes"/>
 <element name="U$664" library="output" package="AP632030" value="" x="112.268" y="177.038" smashed="yes"/>
 <element name="U$665" library="output" package="#LED#0" value="" x="119.126" y="168.783" smashed="yes" rot="MR270"/>
-<element name="E$1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="-2.62381875" y="179.7685" smashed="yes"/>
-<element name="E$2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="-2.62381875" y="179.7685" smashed="yes" rot="MR0"/>
-<element name="E$3" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="131.65581875" y="179.7685" smashed="yes"/>
-<element name="E$4" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="131.65581875" y="179.7685" smashed="yes" rot="MR0"/>
-<element name="E$5" library="SparkFun-Retired" package="FIDUCIAL-1.5X3" value="" x="-2.62381875" y="6.858" smashed="yes"/>
-<element name="E$6" library="SparkFun-Retired" package="FIDUCIAL-1.5X3" value="" x="-2.62381875" y="6.858" smashed="yes" rot="MR0"/>
+<element name="E$1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="-2.62381875" y="178.181" smashed="yes"/>
+<element name="E$2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="-2.62381875" y="178.181" smashed="yes" rot="MR0"/>
+<element name="E$3" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="131.65581875" y="178.181" smashed="yes"/>
+<element name="E$4" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="131.65581875" y="178.181" smashed="yes" rot="MR0"/>
+<element name="E$5" library="SparkFun-Retired" package="FIDUCIAL-1.5X3" value="" x="-2.62381875" y="6.35" smashed="yes"/>
+<element name="E$6" library="SparkFun-Retired" package="FIDUCIAL-1.5X3" value="" x="-2.62381875" y="6.35" smashed="yes" rot="MR0"/>
 </elements>
 <signals>
 <signal name="GND">

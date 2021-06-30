@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -182,6 +182,7 @@
 <layer number="249" name="Edge" color="7" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="253" name="Extra" color="7" fill="1" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="no"/>
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="no"/>
 </layers>
@@ -17747,10 +17748,10 @@ Breadboard-friendly pins.
 <wire x1="5" y1="-4.5" x2="7.7" y2="-4.5" width="0.2032" layer="51"/>
 <wire x1="7.7" y1="4.5" x2="5" y2="4.5" width="0.2032" layer="51"/>
 <wire x1="7.7" y1="4.5" x2="7.7" y2="-4.5" width="0.2032" layer="51"/>
-<wire x1="5" y1="4.5" x2="-0.3" y2="4.5" width="0.2032" layer="21"/>
+<wire x1="5" y1="4.5" x2="-0.3" y2="4.5" width="0.2032" layer="51"/>
 <wire x1="-5.7" y1="4.5" x2="-5.6" y2="4.5" width="0.2032" layer="21"/>
 <wire x1="-5.7" y1="-4.5" x2="-5.7" y2="-2.8" width="0.2032" layer="21"/>
-<wire x1="5" y1="-4.5" x2="5" y2="4.5" width="0.2032" layer="21"/>
+<wire x1="5" y1="-4.5" x2="5" y2="4.5" width="0.2032" layer="51"/>
 <text x="-4.173" y="-1.83" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-4.273" y="-2.857" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 <polygon width="0.01" layer="46">
@@ -17775,10 +17776,10 @@ Breadboard-friendly pins.
 <pad name="GNDBREAK" x="-3.048" y="4.699" drill="1" diameter="2" shape="long" rot="R180" stop="no"/>
 <pad name="PWR" x="-5.969" y="0" drill="1" diameter="2.3" shape="long" rot="R90"/>
 <wire x1="-5.7" y1="4.5" x2="-5.7" y2="2.7" width="0.2032" layer="22"/>
-<wire x1="5" y1="4.5" x2="-0.3" y2="4.5" width="0.2032" layer="22"/>
+<wire x1="5" y1="4.5" x2="-0.3" y2="4.5" width="0.2032" layer="52"/>
 <wire x1="-5.7" y1="4.5" x2="-5.6" y2="4.5" width="0.2032" layer="22"/>
 <wire x1="-5.7" y1="-4.5" x2="-5.7" y2="-2.8" width="0.2032" layer="22"/>
-<wire x1="5" y1="-4.5" x2="5" y2="4.5" width="0.2032" layer="22"/>
+<wire x1="5" y1="-4.5" x2="5" y2="4.5" width="0.2032" layer="52"/>
 <wire x1="5" y1="-4.5" x2="7.7" y2="-4.5" width="0.2032" layer="52"/>
 <wire x1="7.7" y1="4.5" x2="5" y2="4.5" width="0.2032" layer="52"/>
 <wire x1="7.7" y1="4.5" x2="7.7" y2="-4.5" width="0.2032" layer="52"/>
@@ -17812,8 +17813,8 @@ Breadboard-friendly pins.
 <vertex x="-4.132078125" y="-3.556"/>
 </polygon>
 <wire x1="-5.7" y1="-4.517" x2="-5.6" y2="-4.517" width="0.2032" layer="21"/>
-<wire x1="5" y1="-4.517" x2="-0.3" y2="-4.517" width="0.2032" layer="21"/>
-<wire x1="5" y1="-4.517" x2="-0.3" y2="-4.517" width="0.2032" layer="22"/>
+<wire x1="5" y1="-4.517" x2="-0.3" y2="-4.517" width="0.2032" layer="51"/>
+<wire x1="5" y1="-4.517" x2="-0.3" y2="-4.517" width="0.2032" layer="52"/>
 <wire x1="-5.7" y1="-4.517" x2="-5.6" y2="-4.517" width="0.2032" layer="22"/>
 </package>
 </packages>
@@ -18506,7 +18507,9 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <connect gate="G$1" pin="PWR" pad="PWR"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-08197" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
