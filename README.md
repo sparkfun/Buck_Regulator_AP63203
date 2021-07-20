@@ -26,9 +26,12 @@ SparkFun Buck Regulator and Baby Buck Regulator
 Repository Contents
 -------------------
 
-* **/Documentation** - Data sheets, additional product information
-* **/Hardware** - Eagle design files (.brd, .sch)
-* **/Production** - Production panel files (.brd)
+* **/SparkFun Buck Regulator - AP63203**
+    * **/Hardware** - Eagle design files (.brd, .sch)
+        * **/Production** - Production panel files (.brd)
+* **/SparkFun BabyBuck Regulator - AP63203**
+    * **/Hardware** - Eagle design files (.brd, .sch)
+        * **/Production** - Production panel files (.brd)
 
 Documentation
 --------------
