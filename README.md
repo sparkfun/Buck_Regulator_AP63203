@@ -1,8 +1,6 @@
 SparkFun Buck Regulator and Baby Buck Regulator
 ========================================
 
-
-
 <table class="table table-hover table-striped table-bordered">
     <tr>
         <th class="text-center"> 
@@ -11,12 +9,12 @@ SparkFun Buck Regulator and Baby Buck Regulator
         </th>
     </tr>
     <tr align="center">
-        <td><a href="https://www.sparkfun.com/products/18356"><img src="" alt=""></a></td>
-        <td><a href="https://www.sparkfun.com/products/18357"><img src="" alt=""></a></td>
+        <td><a href="https://www.sparkfun.com/products/18356"><img src="https://cdn.sparkfun.com/assets/parts/1/7/7/0/3/18356-SparkFun_Buck_Regulator_Breakout_-_3.3V__AP63203_-01.jpg" alt=""></a></td>
+        <td><a href="https://www.sparkfun.com/products/18357"><img src="https://cdn.sparkfun.com/assets/parts/1/7/7/0/5/18357-SparkFun_BabyBuck_Regulator_Breakout_-_3.3V__AP63203_-01.jpg" alt=""></a></td>
     </tr>
     <tr align="center">
-        <td>SparkFun Buck Regulator Breakout - 3.3V (AP63203)</td>
-        <td>BabyBuck Regulator Breakout - 3.3V (AP63203)</td>
+        <td><a href="https://www.sparkfun.com/products/18356">SparkFun Buck Regulator Breakout - 3.3V (AP63203)</a></td>
+        <td><a href="https://www.sparkfun.com/products/18357">BabyBuck Regulator Breakout - 3.3V (AP63203)</a></td>
     </tr>
 </table>
 
