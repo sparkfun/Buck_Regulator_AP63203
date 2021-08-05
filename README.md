@@ -19,7 +19,11 @@ SparkFun Buck Regulator and Baby Buck Regulator
 </table>
 
 
-<Basic description of the part.>
+Who doesn't occasionally need power regulation? We certainly do, so we've designed the SparkFun Buck Regulator Breakout to help us with just such a task. Featuring the AP63203 from Diodes Inc, this breakout board takes advantage of a 2A synchronous buck converter that has a wide input voltage range of 3.8V to 32V and fully integrated 125mΩ high-side power MOSFET/68mΩ lowside power MOSFET to provide high-efficiency step-down DC/DC conversion. All of this snuggled up in a low-profile, TSOT26 package that's integrated into a 1in. by 1in. board. 
+
+Input power for this Buck Regulator can be supplied in a number of ways. There are screw terminals on the right side of the board, solder pads for a barrel jack, which can be mounted on the top or bottom side of the board, and the plated through holes on the left side of the board can all be used as input. Output can be obtained via the screw terminals or the plated through holes. Additionally, to dissipate some of the excess heat, we've added a copper pad for a heat sink on the back of the board.
+
+Frequency Spread Spectrum (FSS) reduces EMI and a proprietary gate driver scheme resists switching node ringing without sacrificing MOSFET turn-on and turn-off times, which further erases high-frequency radiated EMI noise.
 
 Repository Contents
 -------------------
